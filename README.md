@@ -13,7 +13,7 @@ Requirements
 ------------
 
 - Kanboard >= 1.0.37
-- PHP >= 5.5
+- PHP >= 5.5 (8.1.3 approved)
 - Account with Amazon AWS, or other S3 compatible service
 
 Installation
