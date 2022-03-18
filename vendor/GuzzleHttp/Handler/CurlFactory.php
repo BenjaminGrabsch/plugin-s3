@@ -63,7 +63,8 @@ class CurlFactory implements CurlFactoryInterface
     {
         $resource = $easy->handle;
         unset($easy->handle);
-
+        
+        #BUG FIX PHP8.X
         if (count((array)$this->handles) >= $this->maxHandles) {
             curl_close($resource);
         } else {
